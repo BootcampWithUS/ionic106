@@ -1,2 +1,1 @@
-# ionic106
-Leccion 6
+# weathyapp
