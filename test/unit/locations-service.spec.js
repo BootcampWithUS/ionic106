@@ -37,17 +37,4 @@ describe('Locations Service', function () {
     expect(service.data[0]).toEqual(two);
   });
 
-  it('Deberia remover un existente item por toggle', function () {
-    service.toggle(one);
-    expect(service.getIndex(one)).toEqual(0);
-
-    // Spy on method and assume the user hits confirm.
-    spyOn(service, 'toggle').and.callFake(function() {
-      service.data.splice(0, 1);
-    });
-
-    service.toggle(one);
-    expect(service.getIndex(one)).toEqual(-1);
-  });
-
 });
