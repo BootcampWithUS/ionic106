@@ -14,5 +14,12 @@
       "path": "/api/forecast",
       "proxyUrl": "https://api.forecast.io/forecast/6159c9d84addc44bb4c45b42fdfdcd42/"
     }
+  ],
+  "browsers": [
+    {
+      "platform": "android",
+      "browser": "crosswalk",
+      "version": "12.41.296.5"
+    }
   ]
 }
